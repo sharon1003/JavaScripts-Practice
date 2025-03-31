@@ -4,12 +4,12 @@
 
 ### Function declaration
 
-Method 1:
-$
+**Method 1**:
+
+```javascript
 function name(param1, param2, ...) {
   // statements
-} 
-$
+}
 
 ### Function expression
 
@@ -31,3 +31,4 @@ Method 2: Arrow Function Expression <- function expression 的省略版
 
 1. 將 function 分配給變數。
 2. 將 function 作為 arugment 傳給其他 function
+```
