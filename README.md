@@ -31,6 +31,12 @@ statement;
 - para => { return expression }
 ```
 
+關於 Arrow Expression 相關的特性
+
+1. 如果只有一個 parameter，不需括號。
+2. 如果沒有加上{ }，則會直接 return 括號內的值。
+3. Arrow Expression 沒有 this 關鍵字的綁定，不能作為 Objects 的 Methods.
+
 ### What is first-class object in JS?
 
 如果是 first-class object 的話，有以下特性：
